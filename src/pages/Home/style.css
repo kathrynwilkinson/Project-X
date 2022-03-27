@@ -1,8 +1,17 @@
+:root {
+	--btn: rgb(6,17, 37);
+	--btn-txt: rgb(143, 114, 114);
+	--btn-border: rgb(59, 46, 45);
+	--btn-hover: rgb(26, 36, 53);
+	--btn-txt-hover: rgb(161, 142, 142);
+	--btn-border-hover: rgb(82, 71, 71);
+}
+
 #home-header {
 	background-image: url(../../images/home/portfolio-hero-fade.JPG);
 	background-size: cover;
 	background-position: center;
-	height: 55vh;
+	height: 47vh;
 	margin: 0;
 	width: 100vw;
 }
@@ -21,36 +30,59 @@
 }
 .greeting-text {
 	height: 5em;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3em;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-size: 2em;
 	letter-spacing: -0.06em;
 	padding: 0.15em 1em;
-	line-height: 0.75em;
+	line-height: 0.9em;
 	width: 75vw;
 		/* add animation */
 }
-	#line1 {
-		color: rgba(224, 216, 228, 0.85);
+	span#line1 {
+		color: rgba(228, 216, 216, 0.85);
 		position: relative;
 			right: 0.1em;
+		/* line-height: 1.15em; */
 	}
-	#line2 {
-		color: rgb(192, 179, 197, 0.85);
+	span#line2 {
+		color: rgba(197, 179, 179, 0.85);
 	}
-	#line3 {
-		color: rgb(159, 145, 165, 0.85);
+	span#line3 {
+		color: rgba(165, 145, 145, 0.85);
 	}
-	#line4 {
-		color: rgb(125, 111, 131, 0.85);
+	span#line4 {
+		color: rgba(131, 111, 111, 0.85);
 
 	}
 .main-btns-wrapper {
-	margin: 1.5em 0.5em;
+	margin: 0em 0.5em;
 	padding: auto;
+	display: flex;
+	flex-direction: column;
 }
 .main-btns {
-	height: 5em;
-	width: 12em;
+	height: 4em;
+	width: 10em;
 	padding: auto;
 	margin: 0.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.775em;
+	color: var(--btn-txt);
+	background-color: var(--btn);
+	border-color: var(--btn-border);
+	border-style: double double inset outset;
+	border-width: 0.475em 0.475em 0.25em 0.25em;
+	font-weight: 600;
+	transition: all 0.25s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.015s;
+}
+.main-btns:hover {
+	color: var(--btn-txt-hover);
+	background-color: var(--btn-hover);
+	border-color: var(--btn-border-hover);
+	border-width: 0.5em 0.5em 0.3em 0.3em;
+	border-style: double double ridge groove;
+	font-size: 0.779em;
+	/* transform: translate(-0.05em, 0.025em); */
 }
