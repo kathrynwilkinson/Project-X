@@ -6,10 +6,19 @@
 	margin: 0;
 	width: 100vw;
 }
-#home-main {
+#header-img-transition {
 	background-image: url(../../images/home/header-img-mirror.JPG);
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
 	height: 18vh;
+}
+#welcome-div {
+	height: 25vh;
+	background-color: black;
+	color: whitesmoke;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5em;
+	display: flex;
+	justify-content: center;
 }

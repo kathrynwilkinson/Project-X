@@ -8,7 +8,7 @@ export default function Navigation() {
             <div className='nav'>
                 <Link to='/' className='nav-link'>
                     {/* homepage */}
-                    Welcome
+                    Home
                 </Link>
                 <Link to='/about' className='nav-link'>
                     About
