@@ -6,7 +6,6 @@ import about3 from '../../images/about/portfolio2resized.jpg';
 import about4 from '../../images/about/portfolio-art-soul-dust.jpg';
 import about5 from '../../images/about/portfolio-art-devour.jpg';
 import about6 from '../../images/about/d-n-me-vector.jpg';
-import Skills from '../../components/Skills';
 
 export default function About() {
 	return (
@@ -34,9 +33,6 @@ export default function About() {
 				<div className="column">
 					<img alt='' className="about-thumb" src={about5}/>
 				</div>
-			</div>
-			<div>Skills section
-				<Skills />
 			</div>
 		</div>
 	);

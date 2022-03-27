@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.App {
+  background-color: black;
+}
 .page-body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.15em;

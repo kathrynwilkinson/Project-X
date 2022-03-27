@@ -7,7 +7,7 @@ export default function Home() {
 			<div className='page-header' id='home-header'></div>
 			<main id='home-main'>
 				<div id='header-img-transition'></div>
-				<div id='welcome-div'>Welcome.</div>
+				<div id='welcome-text'>Welcome.</div>
 			</main>
 		</div>
 	);

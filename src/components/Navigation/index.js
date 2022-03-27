@@ -7,7 +7,6 @@ export default function Navigation() {
 		<div className='nav-wrapper'>
             <div className='nav'>
                 <Link to='/' className='nav-link'>
-                    {/* homepage */}
                     Home
                 </Link>
                 <Link to='/about' className='nav-link'>

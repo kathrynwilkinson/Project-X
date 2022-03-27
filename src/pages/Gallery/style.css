@@ -1,9 +1,10 @@
 #gallery-page {
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;
+
 }
 #gallery-blurb {
     width: 60vw;
+    padding: 1em;
 }
 .portfolio-sec {
 	display: flex;

@@ -1,8 +1,12 @@
 .nav-wrapper {
     display: flex;
-    width: 100%;
+    width: 100vh;
+    height: 5em;
+    background-color: black;
+    margin: 0;
 }
 .nav {
+    background-color: black;
     position: absolute;
     top: 20px;
     display: flex;
