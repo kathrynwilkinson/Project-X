@@ -5,7 +5,8 @@ import Skills from '../../components/Skills';
 
 export default function About() {
 	return (
-		<div>About Page
+		<div className='page-body'>
+			<div className='page-header'>About</div>
 			<div>About Blurb</div>
 			<div>AboutCard section
 				<AboutCard />

@@ -1,4 +1,5 @@
-header {
-	height: 20vh;
-	background-color: whitesmoke;
+.header-img {
+    background-color: lightslategray;
+    height: 25vh;
+    color: white;
 }

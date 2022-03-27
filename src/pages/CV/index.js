@@ -3,6 +3,8 @@ import React from 'react';
 
 export default function CV() {
 	return (
-		<div>CV Page</div>
+		<div className='page-body'>
+			<div className='page-header'>CV</div>
+		</div>
 	);
 }

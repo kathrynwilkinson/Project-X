@@ -4,7 +4,8 @@ import ProjectCard from '../../components/ProjectCard';
 
 export default function Gallery() {
 	return (
-		<div>Gallery Page
+		<div className='page-body'>
+			<div className='page-header'>Gallery</div>
 			<div>ProjectCard section
 				<ProjectCard />
 			</div>

@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 
 export default function Header() {
 	return (
-		<header>Header
+		<header  className='header-img'>Header
 			<Navigation />
 		</header>
 	);
