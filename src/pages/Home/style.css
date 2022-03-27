@@ -2,24 +2,55 @@
 	background-image: url(../../images/home/portfolio-hero-fade.JPG);
 	background-size: cover;
 	background-position: center;
-	height: 60vh;
+	height: 55vh;
 	margin: 0;
 	width: 100vw;
+}
+.home-main {
+	height: 50vh;
 }
 #header-img-transition {
 	background-image: url(../../images/home/header-img-mirror.JPG);
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
-	height: 18vh;
+	height: 11vh;
 }
-#welcome-text {
-	height: 25vh;
-	background-color: black;
-	color: whitesmoke;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 5em;
+.flex-wrapper {
 	display: flex;
-	justify-content: center;
-	/* add animation */
+}
+.greeting-text {
+	height: 5em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	letter-spacing: -0.06em;
+	padding: 0.15em 1em;
+	line-height: 0.75em;
+	width: 75vw;
+		/* add animation */
+}
+	#line1 {
+		color: rgba(224, 216, 228, 0.85);
+		position: relative;
+			right: 0.1em;
+	}
+	#line2 {
+		color: rgb(192, 179, 197, 0.85);
+	}
+	#line3 {
+		color: rgb(159, 145, 165, 0.85);
+	}
+	#line4 {
+		color: rgb(125, 111, 131, 0.85);
+
+	}
+.main-btns-wrapper {
+	margin: 1.5em 0.5em;
+	padding: auto;
+}
+.main-btns {
+	height: 5em;
+	width: 12em;
+	padding: auto;
+	margin: 0.5em;
 }
