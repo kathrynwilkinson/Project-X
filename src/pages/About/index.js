@@ -23,6 +23,9 @@ export default function About() {
 					<img alt='' className="about-thumb" src={about2}/>
 				</div>
 				<div className="column">
+					<img alt='' className="about-thumb" id="dani-and-i" src={about6}/>
+				</div>
+				<div className="column">
 					<img alt='' className="about-thumb" src={about3}/>
 				</div>
 				<div className="column">
@@ -30,9 +33,6 @@ export default function About() {
 				</div>
 				<div className="column">
 					<img alt='' className="about-thumb" src={about5}/>
-				</div>
-				<div className="column">
-					<img alt='' className="about-thumb" id="dani-and-i" src={about6}/>
 				</div>
 			</div>
 			<div>Skills section
