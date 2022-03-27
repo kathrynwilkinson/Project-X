@@ -1,8 +1,8 @@
 import './style.css';
 import React from 'react';
 
-export default function Projects() {
+export default function CV() {
 	return (
-		<div></div>
+		<div>CV Page</div>
 	);
 }
