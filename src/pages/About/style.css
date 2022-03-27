@@ -1,9 +1,11 @@
 #about-blurb {
     width: 60vw;
+	padding: 1em;
 }
 #about-sec {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .about-thumb {
 	border-radius: 5px;
