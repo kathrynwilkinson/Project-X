@@ -17,60 +17,77 @@
 	background-image: url(../../images/home/portfolio-hero-fade.JPG);
 	background-size: cover;
 	background-position: center;
-	height: 47vh;
+	height: 30vh;
 	margin: 0;
 	width: 100vw;
 }
 .home-main {
-	height: 50vh;
+	width: 100vw;
 }
 #header-img-transition {
 	background-image: url(../../images/home/header-img-mirror.JPG);
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
-	height: 11vh;
+	height: 10vh;
 }
 .flex-wrapper {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .greeting-text {
 	height: 5em;
 	/* font-family: 'Montserrat', sans-serif; */
-	font-size: 2em;
+	font-size: 1.5em;
 	letter-spacing: -0.06em;
 	padding: 0.15em 1em;
-	line-height: 0.9em;
-	width: 75vw;
+	line-height: 0.5em;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 2;
+	margin: 0.5em;
 		/* add animation */
 }
 	span#line1 {
 		color: var(--line1);
 		position: relative;
 			right: 0.1em;
-		/* line-height: 1.15em; */
+		white-space: nowrap;
+		display: flex;
+		flex-shrink: 2;
 	}
 	span#line2 {
 		color: var(--line2);
+		white-space: nowrap;
+		display: flex;
+		flex-shrink: 2;
 	}
 	span#line3 {
 		color: var(--line3);
+		white-space: nowrap;
+		display: flex;
+		flex-shrink: 2;
 	}
 	span#line4 {
 		color: var(--line4);
-
+		white-space: nowrap;
+		display: flex;
+		flex-shrink: 2;
 	}
 .main-btns-wrapper {
-	margin: 0em 0.5em;
+	margin: auto 0em 0.5em 0.25em 0.5em;
 	padding: auto;
 	display: flex;
-	flex-direction: column;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	/* flex-wrap: nowrap; */
 }
 .main-btns {
 	height: 4em;
 	width: 10em;
 	padding: auto;
-	margin: 0.5em;
+	margin: 0 0.5em 0.5em 0.5em;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 0.775em;
 	color: var(--btn-txt);

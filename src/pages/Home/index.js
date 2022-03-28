@@ -10,12 +10,12 @@ export default function Home() {
 				<div id='header-img-transition'></div>
 				<div className='flex-wrapper'>
 					<div className='greeting-text'>
-						<span id='line1'>-- Hello, I'm Kathryn Wilkinson.</span><br />
-						<span id='line2'>&emsp;&emsp;&nbsp;I enjoy philosophical conversations,</span><br />
-						<span id='line3'>&emsp;&ensp;&nbsp;and I'm a freelance artist</span><br />
-						<span id='line4'>&emsp;&ensp;&nbsp;& web developer.</span>
+						<span id='line1'>-- Hello, my name is </span><br />
+						<span id='line2'>&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;Kathryn Wilkinson. </span><br />
+						<span id='line3'>&emsp;&ensp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;I'm a web developer, and</span><br />
+						<span id='line4'>&emsp;&ensp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;I like to make things.</span>
 					</div>
-					<div class='main-btns-wrapper'>
+					<div className='main-btns-wrapper'>
 						<button className='main-btns' id='see-work-btn'>See my work</button>
 						<button className='main-btns' id='contact-btn'>Contact me</button>
 					</div>

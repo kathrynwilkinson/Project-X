@@ -1,37 +1,42 @@
+:root {
+    --nav-link: rgba(192, 179, 197, 0.75);
+    --nav-link-hover: rgb(194, 185, 199);
+}
+
 .nav-wrapper {
     display: flex;
     width: 100vh;
-    height: 5em;
+    height: 4em;
     background-color: black;
     margin: 0;
 }
 .nav {
     background-color: black;
     position: absolute;
-    top: 1.25em;
+    top: 1em;
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    padding-right: 1em
+    padding: 0 1.5em;
 }
 .nav-link {
-    color: linen;
+    color: var(--nav-link);
     display: flex;
     padding: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 0.8em;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
 }
-.nav-link:link {
-    color: linen;
-}
-.nav-link:visited {
-    color: rgb(176, 155, 184);
-}
-.nav-link:hover,
-.nav-link:focus {
-    color: rgb(239, 230, 250);
-}
+    .nav-link:link {
+        color: var(--nav-link);
+    }
+    .nav-link:visited {
+        color: var(--nav-link);
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--nav-link-hover);
+    }
