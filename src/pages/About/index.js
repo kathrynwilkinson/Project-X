@@ -14,7 +14,7 @@ export default function About() {
 			<div id='about-blurb'>
 				<p>I'm a full-stack web developer with a passion for UI/UX design, born and raised in Columbus, Ohio. When I'm not coding, you'll find me playing music, painting, gardening or teaching my dog new tricks.</p>
 			</div>
-			<div id='about-sec'>
+			<div id='about-thumb-sec'>
 				<div className="column">
 					<img alt='' className="about-thumb" src={about1}/>
 				</div>

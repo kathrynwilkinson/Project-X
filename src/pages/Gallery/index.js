@@ -7,7 +7,7 @@ export default function Gallery() {
 	return (
 		<div className='page-body' id='gallery-page'>
 			<div className='page-header' id='gallery-header'>gallery.</div>
-			<div id='gallery-blurb'>
+			{/* <div id='gallery-blurb'>
 				<p>I enjoy an innovative and
 				judicious approach when solving problems. Developed design skills enable
 				craft and optimization of elegant, user-focused websites
@@ -19,7 +19,7 @@ export default function Gallery() {
 				sensitive information & business objectives, as well as
 				sales, marketing and design.
 				</p>
-			</div>
+			</div> */}
 
 			<div className='portfolio-sec'>
 				{projects.map( project => ( <ProjectCard {...project} key={project.id}/>)) }
