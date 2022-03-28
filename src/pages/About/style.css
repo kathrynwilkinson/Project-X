@@ -1,5 +1,6 @@
 #about-page {
 	background-color: whitesmoke;
+	display: flex;
 }
 #about-blurb {
     width: 60vw;
