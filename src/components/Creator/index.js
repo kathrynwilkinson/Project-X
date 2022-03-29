@@ -15,7 +15,7 @@ export default function Creator () {
                         <a href='' className='footer-text' target='_blank' rel='noreferrer'>PRIVACY POLICY</a>
                     </div>
                     <div className='contact'>
-                        <a href='' className='footer-text' target='_blank' rel='noreferrer'>CONTACT</a>
+                        <a href='../Contact' className='footer-text'>CONTACT</a>
                     </div>
                 </div>
     );

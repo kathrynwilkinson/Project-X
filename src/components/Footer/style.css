@@ -3,5 +3,7 @@ footer {
     display: flex;
         flex-direction: column;
         justify-content: center;
-    position: relative;
+    position: fixed;
+        bottom: 0;
+    height: max-content;
 }
