@@ -103,6 +103,7 @@
 	transition-timing-function: ease-in-out;
 	transition-delay: 0.015s;
 	white-space: nowrap;
+	text-decoration: none;
 }
 .main-btns:hover {
 	color: var(--btn-txt-hover);
@@ -113,11 +114,15 @@
 	font-size: 0.779em;
 	/* transform: translate(-0.05em, 0.025em); */
 }
-.btn-txt {
+span.btn-txt {
+	text-decoration: none;
+}
+#contact-me,
+#see-work {
 	font-size: 0.9em;
 	font-weight: 600;
 	vertical-align: super;
-	transform: scale()
+	transform: scale();
 }
 .guillemet {
 	font-size: 2em;

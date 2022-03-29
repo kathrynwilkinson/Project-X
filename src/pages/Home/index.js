@@ -19,8 +19,18 @@ export default function Home() {
 						<span id='line4'>&emsp;&ensp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&nbsp;& I like to make things.</span>
 					</div>
 					<div className='main-btns-wrapper'>
-						<button className='main-btns' id='see-work-btn'><span className='btn-txt'>See my work</span><span className='guillemet'>&raquo;</span></button>
-						<button className='main-btns' id='contact-btn'><span className='btn-txt'>Contact me</span><span className='guillemet'>&raquo;</span></button>
+						<a href='../Gallery'>
+							<button className='main-btns' id='see-work-btn'>
+								<span className='btn-txt' id='see-work'>See my work</span>
+								<span className='btn-txt guillemet'>&raquo;</span>
+							</button>
+						</a>
+						<a href='../Contact'>
+							<button className='main-btns' id='contact-btn'>
+								<span className='btn-txt' id='contact-me'>Contact me</span>
+								<span className='btn-txt guillemet'>&raquo;</span>
+							</button>
+						</a>
 					</div>
 				</div>
 			</main>
