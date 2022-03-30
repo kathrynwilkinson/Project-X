@@ -92,9 +92,9 @@
 .main-btns {
 	height: 4em;
 	width: 10em;
-	padding: auto;
 	margin: 0 0.5em 0.5em 0.5em;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Red Hat Mono', monospace;
+	font-size: 1em;
 	color: var(--btn-txt);
 	background-color: var(--btn);
 	border-color: var(--btn-border);
@@ -104,7 +104,8 @@
 	transition-timing-function: ease-in-out;
 	transition-delay: 0.015s;
 	white-space: nowrap;
-	text-decoration: none;
+	display: inline-flex;
+		align-items: center;
 }
 .main-btns:hover {
 	color: var(--btn-txt-hover);
@@ -112,24 +113,37 @@
 	border-color: var(--btn-border-hover);
 	border-width: 0.5em 0.5em 0.3em 0.3em;
 	border-style: double double ridge groove;
-	font-size: 0.779em;
+	/* font-size: 0.779em; */
 	/* transform: translate(-0.05em, 0.025em); */
 }
 span.btn-txt {
-	text-decoration: none;
+	margin: auto;
 }
-#contact-me,
-#see-work {
+span#contact-me,
+span#see-work {
 	font-size: 0.9em;
 	font-weight: 600;
-	vertical-align: super;
-	transform: scale();
+	line-height: 1em;
+	margin-left: 0.7em;
+	/* transform: scale(); */
 }
 .guillemet {
-	font-size: 2em;
+
+	font-size: 3em;
 	font-weight: 300;
+	position: relative;
+		bottom: 0.25em;
+		left: 0.1em;
+}
 
-	/* vertical-align: ; */
-
-
+a button span#see-work.btn-txt,
+a button span#contact-me.btn-txt,
+a button span.guillemet,
+a button span#see-work.btn-txt:link,
+a button span#contact-me.btn-txt:link,
+a:link,
+a:visited,
+a:active{
+	text-decoration: none !important;
+	text-decoration-style: none !important;
 }
