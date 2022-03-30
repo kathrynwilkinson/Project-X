@@ -1,7 +1,7 @@
 :root {
     --footer-text: rgb(148, 173, 190) !important;
     --footer-text-hover: rgb(197, 180, 180) !important;
-    --footer-background: rgba(54, 84, 126, 0.87);
+    --footer-background: rgba(6, 21, 43, 0.671);
 }
 .footer-wrapper {
     background-color: var(--footer-background);
@@ -21,9 +21,9 @@
 #copyright-wrapper {
     display: inline-flex;
     flex-wrap: nowrap;
-    width: 1.5em;
-    height: 1.5em;
-    opacity: 0.1;
+    width: 1.75em;
+    height: 1.75em;
+    opacity: 0.25;
 }
 a.footer-links {
     text-decoration: none;
