@@ -15,22 +15,22 @@ export default function About() {
 				<p>I'm a full-stack web developer with a passion for UI/UX design, born and raised in Columbus, Ohio. When I'm not coding, you'll find me playing music, painting, gardening or teaching my dog new tricks.</p>
 			</div>
 			<div id='about-thumb-sec'>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" src={about1}/>
 				</div>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" src={about2}/>
 				</div>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" id="dani-and-i" src={about6}/>
 				</div>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" src={about3}/>
 				</div>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" src={about4}/>
 				</div>
-				<div className="column">
+				<div className="">
 					<img alt='' className="about-thumb" src={about5}/>
 				</div>
 			</div>

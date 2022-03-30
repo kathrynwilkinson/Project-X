@@ -12,13 +12,51 @@
 }
 .contact-links-container {
     display: flex;
-        justify-content: center;
-    margin: 1.5em auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    margin: auto;
     padding-top: 2em;
     width: 100vw;
 }
 .contact-page-icons {
-    width: 5em;
-    height: 5em;
-    margin: 0.5em;
+    /* margin: 1em 0.15em; */
 }
+#linkedin2 {
+    width: 2.6em;
+    height: 2.45em;
+    position: relative;
+        top: 0.25em;
+}
+#github2 {
+    width: 3em;
+    height: 3em;
+}
+#email2 {
+    width: 2.8em;
+    height: 3em;
+}
+#logo2 {
+    width: 2.95em;
+    height: 2.95em;
+}
+
+
+/* media query
+#linkedin2 {
+    width: 4.85em;
+    height: 4.75em;
+    position: relative;
+        top: 0.5em;
+}
+#github2 {
+    width: 5.5em;
+    height: 5.45em;
+}
+#email2 {
+    width: 5.25em;
+    height: 5.5em;
+}
+#logo2 {
+    width: 5.5em;
+    height: 5.5em;
+} */

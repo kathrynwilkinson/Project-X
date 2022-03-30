@@ -1,24 +1,39 @@
 /* #contact-page {
 
 } */
-
-#contact-blurb {
-	position: fixed;
-		bottom: 1.3em;
-	background-color: white;
+.blurb-flex {
+	display: flex;
+		flex-direction: column;
+}
+.contact-blurb {
+	background-color: whitesmoke;
 	opacity: 0;
 	width: 100vw;
 	height: max-content;
 	transition: all 3s ease-in-out;
 	z-index: 2;
-	padding: 1em;
-	text-align: center;
+	padding: 0.68em;
+	margin: 0.32em 0;
+	/* text-align: center; */
+	font-size: 0.8em;
 	font-weight: 400;
 }
-#contact-blurb:hover {
+.contact-blurb:hover {
 	opacity: 0.65;
 
 }
+#blurb1 {
+	position: absolute;
+		top: 13.35vh;
+}
+#blurb2 {
+	position: relative;
+
+}
+#blurb3 {
+	position: static;
+}
+
 #contact-baby {
 	position: fixed;
 		bottom: 0;
