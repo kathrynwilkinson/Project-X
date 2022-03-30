@@ -13,7 +13,7 @@ export default function Navigation() {
                     About
                 </Link>
                 <Link to='/gallery' className='nav-link'>
-                    Gallery
+                    Works
                 </Link>
                 <Link to='/cv' className='nav-link'>
                     CV

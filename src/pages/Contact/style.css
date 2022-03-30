@@ -1,3 +1,10 @@
-#contact-page {
-	background-color: whitesmoke;
+/* #contact-page {
+
+} */
+.contact-baby {
+	position: fixed;
+		bottom: 0;
+		left: -1em;
+    width: 22.5em;
+    height: 22.5em;
 }

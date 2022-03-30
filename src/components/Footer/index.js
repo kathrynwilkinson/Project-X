@@ -1,14 +1,12 @@
 import React from 'react';
 import './style.css';
-import Contact from '../Contact';
-import Creator from '../Creator';
+import FootBar from '../FootBar';
 
 export default function Footer () {
     return (
 
         <footer>
-            <Contact />
-            <Creator />
+            <FootBar />
         </footer>
     );
 }

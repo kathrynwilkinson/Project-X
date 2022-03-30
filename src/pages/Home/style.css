@@ -32,8 +32,9 @@
 	display: flex;
 }
 .home-main {
-	/* width: 100vw;
-	padding-bottom: 20em; */
+	background-color: black;
+	padding-bottom: 5em;
+	height: max-content;
 }
 
 .flex-wrapper {

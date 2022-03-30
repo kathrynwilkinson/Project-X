@@ -1,0 +1,24 @@
+:root {
+    --footer-text: rgba(131, 111, 111, 0.725) !important;
+    --mail-icon: rgba(197, 179, 179, 0.85) !important;
+    --contact-links-background: rgba(19, 15, 15, 0.425);
+}
+
+.contact-section{
+    display: flex;
+    width: max-content;
+    height: max-content;
+    justify-content: center;
+}
+.contact-links-container {
+    display: flex;
+        justify-content: center;
+    margin: 1.5em auto;
+    padding-top: 2em;
+    width: 100vw;
+}
+.contact-page-icons {
+    width: 5em;
+    height: 5em;
+    margin: 0.5em;
+}
