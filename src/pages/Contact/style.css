@@ -1,10 +1,29 @@
 /* #contact-page {
 
 } */
-.contact-baby {
+
+#contact-blurb {
+	position: fixed;
+		bottom: 1.3em;
+	background-color: white;
+	opacity: 0;
+	width: 100vw;
+	height: max-content;
+	transition: all 3s ease-in-out;
+	z-index: 2;
+	padding: 1em;
+	text-align: center;
+	font-weight: 400;
+}
+#contact-blurb:hover {
+	opacity: 0.65;
+
+}
+#contact-baby {
 	position: fixed;
 		bottom: 0;
-		left: -1em;
+		right: 0em;
     width: 22.5em;
     height: 22.5em;
+	z-index: -1;
 }
