@@ -9,10 +9,14 @@ export default function ContactLinks () {
     return (
         <div className='contact-section'>
             <div className='contact-links-container'>
-                <img id='github2' className='contact-page-icons' alt='' src={github} />
-                <img id='linkedin2' className='contact-page-icons' alt='' src={linkedIn} />
-                <img id='email2' className='contact-page-icons' alt='' src={email} />
-                <img id='logo2' className='contact-page-icons' alt='' src={logo} />
+                <div className='contact-link-row'>
+                    <img id='github2' className='contact-page-icons' alt='' src={github} />
+                    <img id='linkedin2' className='contact-page-icons' alt='' src={linkedIn} />
+                </div>
+                <div className='contact-link-row'>
+                    <img id='email2' className='contact-page-icons' alt='' src={email} />
+                    <img id='logo2' className='contact-page-icons' alt='' src={logo} />
+                </div>
             </div>
             {/* <img className='contact-baby' alt='' src={contactBaby}/> */}
         </div>

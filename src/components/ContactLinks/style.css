@@ -14,18 +14,24 @@
     display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        flex-direction: column;
     margin: auto;
     padding-top: 2em;
     width: 100vw;
 }
+.contact-link-row {
+    display: flex;
+        justify-content: center;
+    margin: auto;
+    width: 100vw;
+}
 .contact-page-icons {
-    /* margin: 1em 0.15em; */
+    display: inline-flex;
+    margin: auto 2em 2em;
 }
 #linkedin2 {
     width: 2.6em;
     height: 2.45em;
-    position: relative;
-        top: 0.25em;
 }
 #github2 {
     width: 3em;
