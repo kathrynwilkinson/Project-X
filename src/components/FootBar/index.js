@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import logo from '../../images/footer/logo1.PNG';
-import email from '../../images/footer/email1.png';
-import github from '../../images/footer/github1.png';
-import linkedIn from '../../images/footer/linkedin1.png';
+import logo from '../../assets/images/footer/logo1.PNG';
+import email from '../../assets/images/footer/email1.png';
+import github from '../../assets/images/footer/github1.png';
+import linkedIn from '../../assets/images/footer/linkedin1.png';
 
 export default function FootBar () {
     return (

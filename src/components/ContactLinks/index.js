@@ -1,9 +1,9 @@
 import './style.css';
 import React from 'react';
-import email from '../../images/contact/email2.png';
-import github from '../../images/contact/github2.png';
-import linkedIn from '../../images/contact/linkedin2.png';
-import logo from '../../images/contact/logo2.PNG';
+import email from '../../assets/images/contact/email2.png';
+import github from '../../assets/images/contact/github2.png';
+import linkedIn from '../../assets/images/contact/linkedin2.png';
+import logo from '../../assets/images/contact/logo2.PNG';
 
 export default function ContactLinks () {
     return (

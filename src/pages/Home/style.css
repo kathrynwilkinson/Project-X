@@ -16,7 +16,7 @@
 }
 
 #home-header {
-	/* background-image: url(../../images/home/portfolio-hero-fade.JPG);
+	/* background-image: url(../../assets/images/home/portfolio-hero-fade.JPG);
 	background-size: cover;
 	background-position: center; */
 	width: 100vw;
@@ -25,7 +25,7 @@
 	display: flex;
 }
 #hero-mirror {
-	/* background-image: url(../../images/home/header-img-mirror.JPG);
+	/* background-image: url(../../assets/images/home/header-img-mirror.JPG);
 	background-size: cover;
 	background-position: center; */
 	width: 100vw;

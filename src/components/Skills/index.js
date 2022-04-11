@@ -1,23 +1,23 @@
 import './style.css';
 import React from 'react';
-import html from '../../images/skills/html5-1.png';
-import css from '../../images/skills/css3-2.png';
-import js from '../../images/skills/js-2.png';
-import jquery from '../../images/skills/jquery-5.png';
-import bazaart from '../../images/skills/bazaart.png';
-import bootstrap from '../../images/skills/bootstrap-1.png';
-import git from '../../images/skills/git.png';
-import github from '../../images/skills/github-2.png';
-import heroku from '../../images/skills/heroku.png';
-import insomnia from '../../images/skills/insomnia.jpg';
-import mbd from '../../images/skills/mdb.webp';
-import mernstack from '../../images/skills/mernstack.png';
-import mvc from '../../images/skills/mvc.jpg';
-import mysql from '../../images/skills/mysql-2.png';
-import nodejs from '../../images/skills/nodejs.png';
-import reacticon from '../../images/skills/react.png';
-import restapi from '../../images/skills/restapi-3.png';
-import vscode from '../../images/skills/vscode.png';
+import html from '../../assets/images/skills/html5-1.png';
+import css from '../../assets/images/skills/css3-2.png';
+import js from '../../assets/images/skills/js-2.png';
+import jquery from '../../assets/images/skills/jquery-5.png';
+import bazaart from '../../assets/images/skills/bazaart.png';
+import bootstrap from '../../assets/images/skills/bootstrap-1.png';
+import git from '../../assets/images/skills/git.png';
+import github from '../../assets/images/skills/github-2.png';
+import heroku from '../../assets/images/skills/heroku.png';
+import insomnia from '../../assets/images/skills/insomnia.jpg';
+import mbd from '../../assets/images/skills/mdb.webp';
+import mernstack from '../../assets/images/skills/mernstack.png';
+import mvc from '../../assets/images/skills/mvc.jpg';
+import mysql from '../../assets/images/skills/mysql-2.png';
+import nodejs from '../../assets/images/skills/nodejs.png';
+import reacticon from '../../assets/images/skills/react.png';
+import restapi from '../../assets/images/skills/restapi-3.png';
+import vscode from '../../assets/images/skills/vscode.png';
 
 
 export default function Skills() {

@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
-import hero from '../../images/home/portfolio-hero-fade.JPG';
-import heroMirror from '../../images/home/header-img-mirror.JPG';
+import hero from '../../assets/images/home/portfolio-hero-fade.JPG';
+import heroMirror from '../../assets/images/home/header-img-mirror.JPG';
 
 export default function Home() {
 	return (

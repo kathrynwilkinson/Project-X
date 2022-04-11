@@ -1,8 +1,8 @@
 import './style.css';
 import React from 'react';
 import ContactLinks from '../../components/ContactLinks';
-import contactBaby from '../../images/contact/cool-baby-square.PNG';
-import cloudFade from '../../images/contact/cloudfade.JPG';
+import contactBaby from '../../assets/images/contact/cool-baby-square.PNG';
+import cloudFade from '../../assets/images/contact/cloudfade.JPG';
 
 export default function Contact() {
 	return (
