@@ -9,12 +9,13 @@ export default function ProjectCard({gitURL, liveURL, title, id}) {
                     <div className='screen code-screen'></div>
                 </div>
             </a>
-            <h5>{title}</h5>
-            <a href={liveURL} target='_blank' rel='noreferrer'>
+
+            {/* <a href={liveURL} target='_blank' rel='noreferrer'>
                 <div title=' View Live ' className="thumbnail live-thumb" id={id + '2'}>
                     <div className='screen live-screen'></div>
                 </div>
-            </a>
+            </a> */}
+            <h5>{title}</h5>
 		</div>
 	);
 }

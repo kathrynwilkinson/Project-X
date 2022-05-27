@@ -5,50 +5,27 @@
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
-	height: 22em;
+	height: 15em;
 	margin: 1em;
+	background-color: rgba(49, 52, 58, 0.725);
 }
 .thumbnail {
 	display: flex;
 	margin: auto;
-	height: 10em;
+	height: 12em;
 	width: 15em;
-}
-.screen {
-	background-color: rgba(22, 22, 22, 0.692);
-	background-position: contain;
-	color: black;
-	display: flex;
-	justify-content: space-around;
-	height: 10em;
-	width: 15em;
-	position: absolute;
-}
-.code-thumb,
-.code-screen {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-.live-thumb,
-.live-screen {
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
 }
 
 
 h5 {
-	color: black;
-	background-color: rgba(216, 205, 205, 0.89);
-	margin: auto;
-	padding: 0;
-	display: flex;
+	color: rgb(255, 255, 255);
+	margin: auto 0.25em;
+	padding: 0.35em;
 	flex-shrink: 3;
-	width: 100%;
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 600;
 	word-wrap: break-word;
 	position: relative;
 	height: 2em;
-	justify-content: center;
-	align-items: center;
+
 }
