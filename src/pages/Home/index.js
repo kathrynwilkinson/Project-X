@@ -12,12 +12,12 @@ export default function Home() {
 
 			<main className='home-main' id='welcome-text'>
 				<div className='flex-wrapper'>
-					<div className='greeting-text'>
+					{/* <div className='greeting-text'>
 						<span id='line1'>-- Hello, my name is </span><br />
 						<span id='line2'>&emsp;&emsp;Kathryn Wilkinson. </span><br />
 						<span id='line3'>&emsp;&ensp;&emsp;&emsp;I'm a web developer,</span><br />
 						<span id='line4'>&emsp;&ensp;&emsp;&emsp;&emsp;& I like to make things.</span>
-					</div>
+					</div> */}
 					<div className='main-btns-wrapper'>
 						<a href='../Gallery'>
 							<button className='main-btns' id='see-work-btn'>

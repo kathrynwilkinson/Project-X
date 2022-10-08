@@ -16,7 +16,7 @@ export default function FootBar () {
                     <a href='https://www.linkedin.com/in/kwilkinsonxx/' className='footer-links' target='_blank' rel='noreferrer'>
                         <img className='footer-icons' id='linkedIn-icon' alt='' src={linkedIn} />
                     </a>
-                    <a href='https://github.com/NAHco-code' className='footer-links' target='_blank' rel='noreferrer'>
+                    <a href='https://github.com/kathrynwilkinson' className='footer-links' target='_blank' rel='noreferrer'>
                         <img className='footer-icons' id='github-icon' alt='' src={github} />
                     </a>
                     <a href='mailto:kathrynxwilk@gmail.com' className='footer-links' target='_blank' rel='noreferrer'>

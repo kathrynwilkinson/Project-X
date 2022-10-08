@@ -36,13 +36,14 @@
 .home-main {
 	background-color: black;
 	padding-bottom: 5em;
-	height: max-content;
+	height: 100vh;
 }
 
 .flex-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	height: max-content;
 }
 .greeting-text {
 	height: 5em;
@@ -91,6 +92,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	/* flex-wrap: nowrap; */
+	height: max-content;
 }
 .main-btns {
 	height: 3.75em;

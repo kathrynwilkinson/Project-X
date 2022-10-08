@@ -1,7 +1,7 @@
 footer {
     display: flex;
         justify-content: center;
-    height: max-content;
+    height: 10vh;
     position: fixed;
         bottom: 0;
 }

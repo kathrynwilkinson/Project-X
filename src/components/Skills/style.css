@@ -1,5 +1,22 @@
+h1, h2 {
+	text-align: center;
+	display: block;
+}
+.sec {
+	margin: auto;
+	width: 80vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+}
 .skills-section-icons {
-	height: 3em;
-	width: 3em;
+	height: 4em;
+	width: 4em;
 	margin: 0.75em;
+}
+#restapi {
+	width: 5em;
+}
+#mernstack {
+	width: 11em;
 }
