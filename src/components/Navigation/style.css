@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     height: max-content;
+    z-index: 500;
 }
 .nav {
     background-color: black;
@@ -24,7 +25,7 @@
     padding: 0.25em 0.5em;
     margin: auto;
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
