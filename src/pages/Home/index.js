@@ -11,7 +11,7 @@ export default function Home() {
 				<div id='top-btn-wrapper' className='main-btns-wrapper'>
 					<a href='../Gallery'>
 						<button className='main-btns' id='see-work-btn'>
-							<span className='btn-txt' id='see-work'>See my work</span>
+							<span className='btn-txt' id='see-work'>Projects</span>
 							<span className='btn-txt guillemet'>&raquo;</span>
 						</button>
 					</a>
@@ -20,9 +20,9 @@ export default function Home() {
 			<div id='home-mirror'>
 				<img id='header-img-transition' alt='' src={profileMirror}/>
 				<div id='bottom-btn-wrapper' className='main-btns-wrapper'>
-					<a href='../Contact'>
+				<a href='../src/assets/resume/k.wilkinson.pdf' target='../src/assets/resume/k.wilkinson.pdf'>
 						<button className='main-btns' id='contact-btn'>
-							<span className='btn-txt' id='contact-me'>Contact me</span>
+							<span className='btn-txt' id='contact-me'>Resume</span>
 							<span className='btn-txt guillemet'>&raquo;</span>
 						</button>
 					</a>

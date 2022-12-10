@@ -76,13 +76,13 @@
 	display: inline-flex;
 		align-items: center;
 }
-#contact-btn {
+/* #contact-btn {
 	position: relative;
 	right: 0.65em;
 }
 #see-work-btn {
 	width: 9.55em;
-}
+} */
 .main-btns:hover {
 	color: var(--btn-txt-hover);
 	background-color: var(--btn-hover);
